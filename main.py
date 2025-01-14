@@ -11,7 +11,7 @@ load_dotenv()
 
 # Initialize FastAPI and Anthropic
 app = FastAPI()
-client = Anthropic(api_key=os.getenv('ANTHROPIC_API_KEY'))
+client = Anthropic(api_key=os.getenv('ANTHROPIC_API_KEY=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=800))
 
 # Enable CORS
 app.add_middleware(
